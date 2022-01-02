@@ -13,7 +13,7 @@
     min-height: 1000px;
     width:90%;
     display: grid;
-    grid-template-columns: 300px 700px;
+    grid-template: 1fr/ 300px 700px;
     
     }
 }
