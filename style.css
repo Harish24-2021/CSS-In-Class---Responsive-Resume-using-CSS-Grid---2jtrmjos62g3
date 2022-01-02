@@ -10,20 +10,22 @@
 
 @media screen and (min-width:674px) {
 .main-content{
-    height: 1000px;
+    min-height: 1000px;
     width:90%;
     display: grid;
-    grid-template: 1fr/ 300px 700px;
+    grid-template-columns: 300px 700px;
     
     }
 }
 
 .left-section{
     background-color: antiquewhite;
+    grid-column: span 1;
     
 }
 .right-section{
     background-color: azure;
+    grid-column: span 1/ span 2;
      
 }
 .left-content{
@@ -92,7 +94,7 @@ padding-bottom: 0.5rem;
 
 @media screen and (max-width:673px) {
     .main-content{
-        height: 1000px;
+        min-height: 1000px;
         width:90%;
         display: grid;
     grid-template-columns: repeat(1,1fr);
