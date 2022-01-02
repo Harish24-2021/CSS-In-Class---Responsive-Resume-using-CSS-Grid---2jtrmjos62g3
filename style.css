@@ -20,13 +20,11 @@
 
 .left-section{
     background-color: antiquewhite;
-    display:grid;
-    gird-template-columns:300px;
+    column-span: none;
 }
 .right-section{
     background-color: azure;
-        display:grid;
-    gird-template-columns:700px;
+     column-span: none;
 }
 .left-content{
     padding: 1rem;
