@@ -10,7 +10,7 @@
 
 @media screen and (min-width:674px) {
 .main-content{
-    min-height: 1000px;
+    height: 1000px;
     width:90%;
     display: grid;
     grid-template: 1fr/ 300px 700px;
@@ -20,11 +20,11 @@
 
 .left-section{
     background-color: antiquewhite;
-    column-span: none;
+    
 }
 .right-section{
     background-color: azure;
-     column-span: none;
+     
 }
 .left-content{
     padding: 1rem;
@@ -92,7 +92,7 @@ padding-bottom: 0.5rem;
 
 @media screen and (max-width:673px) {
     .main-content{
-        min-height: 1000px;
+        height: 1000px;
         width:90%;
         display: grid;
     grid-template-columns: repeat(1,1fr);
